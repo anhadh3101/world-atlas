@@ -1,0 +1,11 @@
+[project]
+name = "atlas-core"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11.9"
+dependencies = [
+    "fastapi[standard]>=0.142.2",
+    "python-dotenv>=1.0.0",
+]
+entrypoint = "main:app"
